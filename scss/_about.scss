@@ -1,0 +1,43 @@
+.about {
+
+	border-top: 1px groove;
+	border-color: grey;
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+	margin-top: 20px;
+	font-family: Lato;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	color: black;
+	text-align: left;
+	@media (min-width: 768px){
+		width: 50%;
+		float: left;
+		border-top: 0;
+	}	
+}
+
+.ivan {
+	padding-top: 10px;
+}
+
+%about_img{
+	float: right;
+	width: 77px;
+}
+.braki img, .domingez img, .ivan img {
+	@extend %about_img;
+}
+
+.about li {
+	margin:0 0 60px 0;
+
+}
+
+.about i {
+	
+	font-size: 10px;
+}

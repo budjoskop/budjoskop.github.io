@@ -1,0 +1,22 @@
+.header{
+	position: fixed;
+	width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+.logo{
+	opacity: 0.98;
+	left: 0;
+	top: 0;
+	right: 0;
+	background-color: #242427;
+    height: 70px;
+    width: 100%;
+    img{
+    	width: 70px;
+		height: 70px;
+		margin: 0 auto;
+    }
+
+}

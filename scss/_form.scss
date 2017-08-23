@@ -1,0 +1,26 @@
+
+.form {
+	margin-top: 30px;
+    width: 100%;
+    overflow: hidden;
+    font-family: Lato;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	color: black;
+	text-align: left;
+	h2{
+		margin-bottom: 30px;
+		text-transform: uppercase;
+	}
+	input{
+		padding: 5px;
+	}
+	@media (min-width: 768px){
+		width: 50%;
+		float: left;
+		padding-right: 20px;
+	}	
+    	
+}

@@ -1,0 +1,45 @@
+
+.footer {
+	left: 0;
+	bottom: 0;
+	right: 0;
+    position: fixed;
+	background-color: #242427;
+    height: 40px;
+    width: 100%;
+
+}
+
+.footer ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.footer li {
+	display: block;
+	float: left;
+	
+}
+
+.footer img {
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 20px;
+	height: 20px;
+}
+
+.footer p {
+	line-height: 40px;
+	font-family: Lato;
+	font-size: 10px;
+	font-style: italic;
+	font-variant: normal;
+	font-weight: 400;
+	color: #8d8d8e;
+	width: 100%;
+	text-align: center;
+	
+}
+

@@ -1,0 +1,46 @@
+.navBar li{ 
+
+	text-align: center;
+	width: (100%/4);
+	float:left;
+		a{
+	line-height: 47px;
+	font-family: Lato;
+	font-size: 16px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	color: black;
+	}	
+}
+
+
+
+a:hover {
+	text-decoration: line-through;
+}
+a.current:link, a.current:visited {
+  text-decoration: line-through;
+}
+
+
+.navBar {
+	opacity: 0.98;
+	top:70px;
+	width: 100%;
+		ul {
+		border-bottom: 1px groove;
+		border-color: #8d8d8e;
+	    background-color: white;
+	    width: 100%; 
+	}
+
+
+}
+
+.clearFix::after, .clearFix::before {
+
+	display: table;
+	content: "";
+	clear:both;
+}

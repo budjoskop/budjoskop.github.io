@@ -1,0 +1,72 @@
+.tableOne {
+	border-top: 1px groove;
+	border-color: #8d8d8e;
+	margin-top: 20px;
+	@media (min-width: 768px){
+		border-top:0;	
+
+	}	
+}
+
+.tableOne h2 {
+	margin-top: 10px;
+	width: 100%;
+	margin-left: 5%;
+	text-align: left;
+	font-family: Lato;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	color: black;
+}
+
+
+
+.tableTwo h2 {
+	width: 100%;
+	margin-left: 5%;
+	text-align: left;
+	font-family: Lato;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	color: black;
+}
+
+.tableTwo {
+	margin-bottom: 65px;
+}
+
+.table_wrap{
+	@media (min-width: 768px){
+		width: 50%;
+		float: left;
+		padding-right: 20px;
+
+	}	
+
+}
+
+table {
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	font-family: Lato;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	color: black;
+    border-collapse: collapse;
+}
+
+td, th {
+
+    border: 1px groove;
+    border-color: solid grey;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

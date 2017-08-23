@@ -1,0 +1,56 @@
+.featuredVideos {
+	line-height: 47px;
+	font-family: Lato;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	color: black;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.kyle {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	position: relative;
+	padding-bottom: 56.25%;
+	z-index: -1;
+		iframe {
+		position: absolute;
+		left:5%;
+		width: 90%;
+		height: 90%;	
+	}
+}
+
+
+
+.gloryBox {
+	margin-bottom: 5px;
+	position: relative;
+	padding-bottom: 56.25%;
+
+		iframe {
+		position: absolute;
+		left:5%;
+		width: 90%;
+		height: 90%;		
+	}
+
+}
+
+
+
+.killer {
+	margin-bottom: 65px;
+	position: relative;
+	padding-bottom: 56.25%;
+
+		iframe {
+	position: absolute;
+	left:5%;
+	width: 90%;
+	height: 90%;	
+	}
+}
